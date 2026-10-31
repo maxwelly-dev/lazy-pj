@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\services\\requestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\services\\requestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\models\\adminrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\models\\adminrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\interfaces\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\interfaces\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\migrations\\20261024004947_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\migrations\\20261024004947_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\lazy-pj.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\lazy-pj.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|c:\\users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD7E2EC-4B20-7DE1-28ED-364D93724B6C}|lazy-pj.Server\\lazy-pj.Server.csproj|solutionrelative:lazy-pj.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestService.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Services\\RequestService.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Services\\RequestService.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Services\\RequestService.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Services\\RequestService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T13:32:25.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRequest.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Interfaces\\IRequest.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Interfaces\\IRequest.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Interfaces\\IRequest.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Interfaces\\IRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T13:22:09.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminRequestModel.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Models\\AdminRequestModel.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Models\\AdminRequestModel.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Models\\AdminRequestModel.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Models\\AdminRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T13:06:07.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\appsettings.json",
+              "RelativeToolTip": "lazy-pj.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-23T16:35:25.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Models\\UserModel.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T00:18:07.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20261024004947_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Migrations\\20261024004947_InitialCreate.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Migrations\\20261024004947_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Migrations\\20261024004947_InitialCreate.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Migrations\\20261024004947_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T00:49:47.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Program.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Program.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T00:26:29.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T00:19:08.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuth.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Interfaces\\IAuth.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Interfaces\\IAuth.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Interfaces\\IAuth.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Interfaces\\IAuth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T00:56:46.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Services\\AuthService.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Services\\AuthService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwCwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T16:18:04.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "lazy-pj.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T00:53:07.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "lazy-pj.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\lazy-pj.Server.csproj",
+              "RelativeDocumentMoniker": "lazy-pj.Server\\lazy-pj.Server.csproj",
+              "ToolTip": "C:\\Users\\maxwellly\\source\\repos\\lazy-pj\\lazy-pj.Server\\lazy-pj.Server.csproj",
+              "RelativeToolTip": "lazy-pj.Server\\lazy-pj.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-23T00:13:08.425Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
