@@ -75,5 +75,17 @@ namespace lazy_pj.Server.Services
             await _context.SaveChangesAsync();
             return true;
         }
+        public async Task<string> GetUserRoleAsync(int id)
+        {
+            var admin = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+            var user = await _context.Admins.FirstOrDefaultAsync(u => u.Id == id);
+            if (user is null && admin is null)
+            {
+                throw new InvalidOperationException("User not found!");
+            }
+            if (admin is null) return "user";
+            if (user is null) return "admin";
+            return string.Empty;
+        }
     }
 }

@@ -11,7 +11,7 @@ using lazy_pj.Server.Data;
 namespace lazy_pj.Server.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20261024004947_InitialCreate")]
+    [Migration("20261029154838_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
