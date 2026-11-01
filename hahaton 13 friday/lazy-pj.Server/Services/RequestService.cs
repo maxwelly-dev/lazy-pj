@@ -22,24 +22,29 @@ namespace lazy_pj.Server.Services
             AdminRequestModel request = new AdminRequestModel {
              UserId = user.Id,
              UserEmail = user.Email,
-             CreationTime = DateTime.Now,
+             CreationTime = DateTime.UtcNow,
              Description = description};
+            _context.Requests.Add(request);
+            await _context.SaveChangesAsync();
             return (request);
+            
         }
-        public async Task<bool> AcceptRequestAsync(int id) 
-        {
-            var currentRequest = await _context.Requests.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
-            //ПРОВЕРКУ ОТ ШКОЛЬНИКОВ СЮДА!!!
-            int Approved = 2;
-            return (true);
+        public async Task AcceptRequestAsync(int id)
+        => await SetStatusAsync(id, RequestStatusModel.Approved);
 
-        }
-        public async Task<bool> DenieRequestAsync(int id)
+        public async Task DenyRequestAsync(int id)
+            => await SetStatusAsync(id, RequestStatusModel.Denied);
+
+        private async Task SetStatusAsync(int id, int status)
         {
-            var currentRequest = await _context.Requests.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
-            //ПРОВЕРКУ ОТ ШКОЛЬНИКОВ СЮДА!!!
-            int Approved = 0;
-            return (true);
+            var currentRequest = await _context.Requests.FirstOrDefaultAsync(x => x.Id == id)
+                ?? throw new KeyNotFoundException($"Request w/ id={id} not found!");
+
+            if (currentRequest.Approved != RequestStatusModel.Pending)
+                throw new InvalidOperationException("Request already sorted!");
+
+            currentRequest.Approved = status;        
+            await _context.SaveChangesAsync();
         }
     }
 }

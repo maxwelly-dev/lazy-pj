@@ -8,6 +8,7 @@ namespace lazy_pj.Server.Data
         {
         }
        public DbSet<UserModel> Users { get; set; }
-       public DbSet<AdminModel> Admins { get; set; }
+        public DbSet<AdminModel> Admins { get; set; }
+        public DbSet<AdminRequestModel> Requests { get; set; }
     }
 }
