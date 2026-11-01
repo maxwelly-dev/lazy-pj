@@ -9,7 +9,7 @@ namespace lazy_pj.Server.Interfaces
     public interface IAuth
     {
         public Task<bool> RegisterUserAsync(UserModel user);
-        public Task<bool> LoginUserAsync(UserModel user);
+        public Task<string?> LoginUserAsync(UserModel user);
         public Task<bool> DeleteUserAsync(int Id);
         public Task<bool> EditUserAsync(UserModel user);
         
