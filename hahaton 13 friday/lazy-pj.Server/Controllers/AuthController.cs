@@ -37,9 +37,10 @@ namespace lazy_pj.Server.Controllers
         {
             try
             {
-                var result = await _authService.LoginUserAsync(user);
-                if (result)
-                    return Ok(new { message = "Login successful!" });
+                var token = await _authService.LoginUserAsync(user);
+
+                if (token != null)
+                    return Ok(new { token = token });
 
                 return Unauthorized(new { message = "Invalid credentials" });
             }

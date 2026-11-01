@@ -2,16 +2,22 @@
 using lazy_pj.Server.Models;
 using lazy_pj.Server.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace lazy_pj.Server.Services
 {
     public class AuthService : IAuth
     {
         private readonly AppDbContext _context;
+        private readonly IConfiguration _configuration;
 
-        public AuthService(AppDbContext context)
+        public AuthService(AppDbContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
         public async Task<bool> RegisterUserAsync(UserModel user)
@@ -28,7 +34,7 @@ namespace lazy_pj.Server.Services
             return true;
         }
 
-        public async Task<bool> LoginUserAsync(UserModel user)
+        public async Task<string?> LoginUserAsync(UserModel user)
         {
             var userFromDb = await _context.Users.FirstOrDefaultAsync(u => u.Email == user.Email);
 
@@ -37,7 +43,7 @@ namespace lazy_pj.Server.Services
                 throw new InvalidOperationException("Wrong Email or password!");
             }
 
-            return true;
+            return GenerateJwtToken(userFromDb);
         }
 
         public async Task<bool> DeleteUserAsync(int id)
@@ -75,17 +81,28 @@ namespace lazy_pj.Server.Services
             await _context.SaveChangesAsync();
             return true;
         }
-        public async Task<string> GetUserRoleAsync(int id)
+
+        private string GenerateJwtToken(UserModel user)
         {
-            var admin = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
-            var user = await _context.Admins.FirstOrDefaultAsync(u => u.Id == id);
-            if (user is null && admin is null)
+            var claims = new List<Claim>
             {
-                throw new InvalidOperationException("User not found!");
-            }
-            if (admin is null) return "user";
-            if (user is null) return "admin";
-            return string.Empty;
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Name, user.Name ?? string.Empty)
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],
+                audience: _configuration["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.UtcNow.AddHours(2),
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }
